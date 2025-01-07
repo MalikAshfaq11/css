@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 3vw;
+    padding-top: 15vh;
+}
+#left{
+    /* background-color: red; */
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left-top h1{
+    /* padding: 3vw; */
+    font-size: 6vw;
+    font-weight: 540;
+    
+}
+
+
+#icon{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 1vw;
+    width: 18%;
+    padding: 0.7vh;
+    margin-bottom: 2.5vh;
+    
+}
+#icon p{
+    font-weight: 550;
+}
+#firstcolor{
+    background-color: rgb(159, 94, 48);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#secondcolor{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#left-bottom{
+    padding-bottom:3vh ;
+}
+
+#left-bottom p{
+    width: 60%;
+    font-weight: 500;
+    font-size: 2.5vh;
+}
+
+#right{
+    /* background-color: blue; */
+    height: 100%;
+    width: 48%;
+}
+#right-top{
+    /* background-color: bisque; */
+    display: flex;
+    gap: 17.9vw;
+    margin-bottom: 2vh;
+    font-size: 2.8vh;
+    font-weight: 600;
+}
+#right-bottom{
+    background-image: url(https://plus.unsplash.com/premium_photo-1669703777657-41f5adb14e9b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 100%;
+    width: 70%;
+    background-position: 0 100%;
+}
+#bag{
+    width: 20vb;
+    height: 20vb;
+    background-color: rgba(0, 0, 0, 0.957);
+    color: rgba(255, 255, 255, 0.702);
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    padding-top: 8vh;
+    left: 78%;
+}
+
+#rotated-text p{
+    /* background-color: yellowgreen; */
+    rotate: 270deg;
+    padding: 1vh;
+    font-size: 2vw;
+    word-spacing: 1.3vh;
+    position: absolute;
+    left: 39.5%;
+    top: 78%;
+    font-weight: 549.5;
+}
